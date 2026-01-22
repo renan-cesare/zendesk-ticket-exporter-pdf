@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Project data
+data/
+*.pdf
+*.xlsx
+
+# Local config
+configs/config.json
+
+# Logs
+*.log
+logs/
+
+# Env
+.env
