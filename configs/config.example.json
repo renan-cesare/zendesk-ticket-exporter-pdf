@@ -1,0 +1,17 @@
+{
+  "paths": {
+    "input_codes_file": "data/codigos.xlsx",
+    "output_dir": "data/output"
+  },
+  "zendesk": {
+    "base_url": "https://SUA_EMPRESA.zendesk.com",
+    "headless": false
+  },
+  "processing": {
+    "reset_checkpoint": false,
+    "cooldown_seconds": 2
+  },
+  "logging": {
+    "level": "INFO"
+  }
+}
