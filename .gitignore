@@ -221,3 +221,17 @@ logs/
 
 # Env
 .env
+
+# Runtime outputs
+output/
+*.pdf
+*.csv
+*.json
+
+# Local config
+config.json
+configs/config.json
+
+# Local data
+data/
+*.xlsx
