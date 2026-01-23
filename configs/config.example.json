@@ -1,17 +1,30 @@
 {
-  "paths": {
-    "input_codes_file": "data/codigos.xlsx",
-    "output_dir": "data/output"
-  },
   "zendesk": {
-    "base_url": "https://SUA_EMPRESA.zendesk.com",
-    "headless": false
+    "subdomain": "YOUR_SUBDOMAIN"
   },
-  "processing": {
-    "reset_checkpoint": false,
-    "cooldown_seconds": 2
+  "auth": {
+    "email": "YOUR_EMAIL",
+    "password": "YOUR_PASSWORD"
   },
-  "logging": {
-    "level": "INFO"
+  "paths": {
+    "excel_codigos": "data/codigos.xlsx",
+    "output_dir": "output",
+    "chrome_driver_path": "C:/path/to/chromedriver.exe"
+  },
+  "runtime": {
+    "headless": false,
+    "keep_browser_open": true,
+    "reset_checkpoint": false
+  },
+  "throttle": {
+    "between_tickets_min_s": 1.0,
+    "between_tickets_max_s": 2.0,
+    "after_print_min_s": 0.6,
+    "after_print_max_s": 1.0
+  },
+  "limits": {
+    "max_pages": 5000,
+    "retry_create_driver": 2,
+    "max_tickets_per_assessor": null
   }
 }
