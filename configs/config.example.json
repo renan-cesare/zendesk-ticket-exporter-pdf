@@ -2,10 +2,6 @@
   "zendesk": {
     "subdomain": "YOUR_SUBDOMAIN"
   },
-  "auth": {
-    "email": "YOUR_EMAIL",
-    "password": "YOUR_PASSWORD"
-  },
   "paths": {
     "excel_codigos": "data/codigos.xlsx",
     "output_dir": "output",
@@ -26,5 +22,8 @@
     "max_pages": 5000,
     "retry_create_driver": 2,
     "max_tickets_per_assessor": null
+  },
+  "logging": {
+    "level": "INFO"
   }
 }
