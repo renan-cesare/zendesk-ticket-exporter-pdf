@@ -179,13 +179,6 @@ Este repositório **não contém dados reais**.
 
 ---
 
-## Autor
-
-Renan P. De Cesare
-Automação de processos em Python aplicada a rotinas de Operações, Risco, Compliance e Dados.
-
----
-
 ## Licença
 
 MIT
