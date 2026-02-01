@@ -17,13 +17,17 @@ Thumbs.db
 configs/config.json
 config.json
 
-# === Local data (never commit real inputs) ===
+# === Local inputs (never commit real inputs) ===
 data/
 
 # === Runtime outputs ===
 output/
 logs/
 
-# (Opcional) se você gera PDFs/XLSX fora de output/, mantenha ignorado:
-*.pdf
-*.xlsx
+# Chrome profiles (runtime)
+chrome_profiles/
+**/chrome_profiles/
+
+# Optional:
+# Keep generated PDFs/XLSX inside output/ or data/,
+# so they are ignored safely without blocking safe examples.
